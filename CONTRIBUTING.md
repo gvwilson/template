@@ -6,7 +6,7 @@ All contributors must abide by our Code of Conduct.
 
 ## Making Decisions
 
-This project uses [Martha's Rules][marthas-rules] for consensus decision making:
+This project uses [Martha's Rules][marthas-rules] <cite>Minahan1986</cite> for consensus decision making:
 
 1.  Before each meeting, anyone who wishes may sponsor a proposal by filing an issue in the GitHub repository tagged "proposal".
     Proposals must be filed at least 24 hours before a meeting in order to be considered at that meeting, and must include:
@@ -115,3 +115,16 @@ This project uses [Martha's Rules][marthas-rules] for consensus decision making:
 1.  Use [diagrams.net][diagrams] to create SVG diagrams.
     Avoid screenshots when possible,
     since getting them to display correctly in print is a pain.
+
+Note: you will need LaTeX in order to build the PDF version of this book.
+After installing it, you will need these package:
+
+-   `babel-english`
+-   `babel-greek`
+-   `cbfonts`
+-   `enumitem`
+-   `greek-fontenc`
+-   `keystroke`
+-   `listings`
+-   `textgreek`
+-   `tocbibind`
