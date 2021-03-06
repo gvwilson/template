@@ -1,0 +1,8 @@
+      "express": ["https://expressjs.com/", "Express"],
+      "got": ["https://www.npmjs.com/package/got", "Got"],
+      "nano": ["https://www.nano-editor.org/", "GNU Nano"],
+      "node-url": ["https://nodejs.org/docs/latest/api/url.html", "Node url"],
+      "olsrud-morten": ["https://jotr.me/", "Morten Olsrud"],
+      "ronvel-cedric": ["http://blog.soulserv.net/", "Cédric Ronvel"],
+      "stack-connor": ["http://connorstack.com/", "Connor Stack"],
+      "terminal-kit": ["https://github.com/cronvel/terminal-kit", "Terminal Kit"],
