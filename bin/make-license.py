@@ -1,4 +1,12 @@
----
+#!/usr/bin/env python
+
+'''Re-make license file with the right URL.'''
+
+
+import utils
+
+
+TEMPLATE = '''---
 permalink: /license/
 ---
 
@@ -11,7 +19,7 @@ license. You are free:
 
 Under the following conditions:
 
--   Attribution - You must attribute the work using "Copyright © Greg Wilson" (but
+-   Attribution - You must attribute the work using "Copyright © <NAME>" (but
     not in any way that suggests that we endorse you or your use of the work).
     Where practical, you must also include a hyperlink to <URL>.
 
@@ -32,3 +40,22 @@ With the understanding that:
     <http://creativecommons.org/licenses/by/4.0/>.
 
 For the full legal text of this license, please see <http://creativecommons.org/licenses/by/4.0/legalcode>.
+'''
+
+
+def make_license(options):
+    '''Main driver.'''
+    config = utils.read_yaml(options.config)
+    text = TEMPLATE\
+        .replace('<URL>', f'<{config["url"]}>')\
+        .replace('<NAME>', f'{config["author"]["name"]}')
+    with open(options.output, 'w') as writer:
+        writer.write(text)
+
+
+if __name__ == '__main__':
+    options = utils.get_options(
+        ['--config', False, 'Path to YAML configuration file'],
+        ['--output', False, 'Path to output license file']
+    )
+    make_license(options)
