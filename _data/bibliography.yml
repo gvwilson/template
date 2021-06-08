@@ -15,7 +15,7 @@
   kind: book
   author:
   - Janet Abbate
-  title: 'Recoding Gender: Women''s Changing Participation in Computing'
+  title: "Recoding Gender: Women's Changing Participation in Computing"
   year: 2012
   isbn: 978-0262534536
   publisher: MIT Press
@@ -1089,7 +1089,7 @@
   author:
   - Stephen H. Edwards
   - Jason Snyder
-  - "Manuel A. Pérez-Qui\xF1ones"
+  - "Manuel A. Pérez-Quiñones"
   - Anthony Allevato
   - Dongkwan Kim
   - Betsy Tretola
@@ -1110,20 +1110,6 @@
   year: 2015
   doi: 10.1145/2786805.2786865
 
-- key: ElEmam2001
-  kind: article
-  author:
-  - Khaled El Emam
-  - "Sa\xEFda Benlarbi"
-  - Nishith Goel
-  - Shesh N. Rai
-  title: The Confounding Effect of Class Size on the Validity of Object-Oriented Metrics
-  journal: TSE
-  volume: 27
-  number: 7
-  year: 2001
-  doi: 10.1109/32.935855
-
 - key: Elbaum1998
   kind: inproceedings
   author:
@@ -1133,6 +1119,20 @@
   booktitle: Proc. ICSM'98
   year: 1998
   url: http://dl.acm.org/citation.cfm?id=850947.853326
+
+- key: ElEmam2001
+  kind: article
+  author:
+  - Khaled El Emam
+  - "Saïda Benlarbi"
+  - Nishith Goel
+  - Shesh N. Rai
+  title: The Confounding Effect of Class Size on the Validity of Object-Oriented Metrics
+  journal: TSE
+  volume: 27
+  number: 7
+  year: 2001
+  doi: 10.1109/32.935855
 
 - key: Eley1995
   kind: book
@@ -1194,7 +1194,7 @@
   author:
   - Fabian Fagerholm
   - Marco Kuhrmann
-  - "J\xFCrgen M\xFCnch"
+  - "Jürgen Münch"
   title: Guidelines for Using Empirical Studies in Software Engineering Education
   journal: PeerJ Computer Science
   volume: 3
@@ -1654,7 +1654,7 @@
   - Stefan Hanenberg
   - Sebastian Kleinschmager
   - Romain Robbes
-  - "\xC9ric Tanter"
+  - Éric Tanter
   - Andreas Stefik
   title: An Empirical Study on the Impact of Static Typing on Software Maintainability
   journal: ESE
@@ -1667,9 +1667,9 @@
   kind: article
   author:
   - Jo E. Hannay
-  - "Tore Dyb\xE5"
+  - Tore Dybå
   - Erik Arisholm
-  - "Dag I.K. Sj\xF8berg"
+  - Dag I.K. Sjøberg
   title: 'The Effectiveness of Pair Programming: A Meta-Analysis'
   journal: Information and Software Technology
   volume: 51
@@ -1683,7 +1683,7 @@
   - J.E. Hannay
   - E. Arisholm
   - H. Engvik
-  - D.I.K. Sjoberg
+  - D.I.K. Sjøberg
   title: Effects of Personality on Pair Programming
   journal: TSE
   volume: 36
@@ -2418,7 +2418,7 @@
 - key: Leitao2019
   kind: article
   author:
-  - "Roxanne Leit\xE3o"
+  - "Roxanne Leitão"
   title: 'Technology-Facilitated Intimate Partner Abuse: A Qualitative Analysis of Data from Online Domestic Abuse Forums'
   journal: Human--Computer Interaction
   year: 2019
@@ -2866,7 +2866,7 @@
   - Meiyappan Nagappan
   - Romain Robbes
   - Yasutaka Kamei
-  - "\xC9ric Tanter"
+  - Éric Tanter
   - Shane McIntosh
   - Audris Mockus
   - Ahmed E. Hassan
@@ -2895,7 +2895,7 @@
   author:
   - Sebastian Nielebock
   - Dariusz Krolikowski
-  - "Jacob Kr\xFCger"
+  - "Jacob Krüger"
   - Thomas Leich
   - Frank Ortmeier
   title: 'Commenting source code: is it worth it for small programming tasks?'
@@ -3756,7 +3756,7 @@
 - key: Sjoberg2018
   kind: inproceedings
   author:
-  - "Dag I. K. Sj\xF8berg"
+  - Dag I. K. Sjøberg
   title: An Empirical Study of WIP in Kanban Teams
   booktitle: Proc. ESEM'18
   year: 2018
@@ -4190,7 +4190,7 @@
 - key: WeziakBialowolska2018
   kind: article
   author:
-  - "Dorota W\u0119ziak-Bia\u0142owolska"
+  - Dorota Węziak-Białowolska
   - Zhao Dong
   - Eileen McNeely
   title: 'Turning the Mirror on the Architects: A Study of the Open-Plan Office and Work Behaviors at an Architectural Company'
