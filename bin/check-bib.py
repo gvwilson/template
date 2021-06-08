@@ -18,7 +18,7 @@ def check_bib(options):
     check_order(defined)
     check_keys(defined)
     cited = utils.get_all_matches(utils.CITATION, options.sources)
-    utils.report('bibliography', cited=cited, defined=set(defined))
+    utils.report('bibliography', cited=cited, defined=set(defined), checkOnlyRight=False)
 
 
 def get_definitions(filename):
