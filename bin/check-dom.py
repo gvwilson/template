@@ -12,7 +12,7 @@ import utils
 KNOWN = {
     'a': {'aria-label', 'class', 'href', 'title'},
     'blockquote': {},
-    'body': {},
+    'body': {'class'},
     'br': {},
     'caption': {},
     'cite': {},

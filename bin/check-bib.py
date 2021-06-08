@@ -37,9 +37,9 @@ def check_order(keys):
     unordered = []
     for key in keys:
         if previous is not None:
-            if key < previous:
+            if key.lower() < previous:
                 unordered.append(key)
-        previous = key
+        previous = key.lower()
     if unordered:
         print('- bibliography order')
         for key in unordered:

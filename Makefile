@@ -27,6 +27,7 @@ RELEASE_FILES=\
   LICENSE.md\
   Makefile\
   Gemfile\
+  _data/bibliography.yml\
   _includes\
   _layouts\
   bin\
